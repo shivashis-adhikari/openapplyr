@@ -1,16 +1,18 @@
 version: 2
 updates:
+  # Minor and patch releases only; major upgrades are made by hand, with the full test suite.
   - package-ecosystem: npm
     directory: /
     schedule:
       interval: weekly
+    ignore:
+      - dependency-name: '*'
+        update-types: ['version-update:semver-major']
     groups:
       dev:
         dependency-type: development
-        update-types: [minor, patch]
       runtime:
         dependency-type: production
-        update-types: [patch]
   - package-ecosystem: github-actions
     directory: /
     schedule:

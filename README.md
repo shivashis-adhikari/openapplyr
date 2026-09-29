@@ -18,6 +18,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/shivashis-adhikari/openapplyr/actions/workflows/ci.yml"><img src="https://github.com/shivashis-adhikari/openapplyr/actions/workflows/ci.yml/badge.svg" alt="Tests"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-AGPL--3.0-0d2d20" alt="License: AGPL-3.0"></a>
   <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-64865c" alt="Platforms: macOS, Windows, Linux">
 </p>
