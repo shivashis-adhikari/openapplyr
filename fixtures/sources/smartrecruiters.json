@@ -1,0 +1,484 @@
+{
+ "recordedAt": "2026-09-28T07:58:56.059Z",
+ "company": "ServiceNow",
+ "list": {
+  "offset": 0,
+  "limit": 3,
+  "totalFound": 701,
+  "content": [
+   {
+    "id": "744000152072409",
+    "name": "Principal Enterprise Architect, Korea",
+    "uuid": "e163f9ce-0c5d-42dc-aea9-5d0c273dede3",
+    "jobAdId": "84229138-6636-47eb-a38c-8d3bf518d9e4",
+    "defaultJobAd": true,
+    "refNumber": "JB0075703",
+    "company": {
+     "identifier": "ServiceNow",
+     "name": "ServiceNow"
+    },
+    "releasedDate": "2026-09-28T04:52:23.673Z",
+    "location": {
+     "city": "Seoul",
+     "country": "kr",
+     "address": "Gangnam Finance Center 152 Teheran-ro Gangnam-gu",
+     "postalCode": "06236",
+     "remote": false,
+     "hybrid": true,
+     "fullLocation": "Seoul, , Korea, republic of"
+    },
+    "industry": {
+     "id": "it_and_services",
+     "label": "Information Technology And Services"
+    },
+    "department": {
+     "id": "2294208",
+     "label": "Sales"
+    },
+    "function": {
+     "id": "consulting",
+     "label": "Consulting"
+    },
+    "typeOfEmployment": {
+     "id": "permanent",
+     "label": "Full-time"
+    },
+    "experienceLevel": {
+     "id": "mid_senior_level",
+     "label": "Mid-Senior Level"
+    },
+    "customField": [
+     {
+      "fieldId": "60345fa28b4ba8595bef1863",
+      "fieldLabel": "Recruiting Team",
+      "valueId": "professional",
+      "valueLabel": "Professional"
+     },
+     {
+      "fieldId": "60345d5c5165a31b17288279",
+      "fieldLabel": "Region",
+      "valueId": "858884996eea4a49baa6231279f39054",
+      "valueLabel": "APAC - Asia Pacific"
+     },
+     {
+      "fieldId": "6034601b43915a29a4b3389b",
+      "fieldLabel": "Job Location",
+      "valueId": "L_SEO005",
+      "valueLabel": "152 Teheran-ro, Seoul, 06236, Republic of Korea(L_SEO005)"
+     },
+     {
+      "fieldId": "60345e1a0b24a127cbdfa148",
+      "fieldLabel": "Employee Type",
+      "valueId": "0082f6cbe6154da19322cbab1f6aa5af",
+      "valueLabel": "Regular"
+     },
+     {
+      "fieldId": "5f63a78f1dae5c5c4e54ba2b",
+      "fieldLabel": "Department",
+      "valueId": "2294208",
+      "valueLabel": "Sales"
+     },
+     {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "kr",
+      "valueLabel": "Republic of Korea"
+     },
+     {
+      "fieldId": "5f63a78f1dae5c5c4e54ba2a",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "ServiceNow"
+     },
+     {
+      "fieldId": "603462175165a31b1728827d",
+      "fieldLabel": "Cost Center",
+      "valueId": "CC3360",
+      "valueLabel": "3360 SC Enterprise Architecture"
+     },
+     {
+      "fieldId": "618ed92b8f5e5f110e5bfb95",
+      "fieldLabel": "Work Persona",
+      "valueId": "bf7551c6-9b06-4e7c-8217-3baf43edd060",
+      "valueLabel": "Flexible"
+     },
+     {
+      "fieldId": "690cc0e8c682c3dbadaa7d73",
+      "fieldLabel": "Job Posting Type",
+      "valueId": "professional",
+      "valueLabel": "Professional"
+     }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/ServiceNow/postings/744000152072409",
+    "language": {
+     "code": "en",
+     "label": "English",
+     "labelNative": "English (US)"
+    }
+   },
+   {
+    "id": "744000152070819",
+    "name": "Director Strategic Partnerships, APAC",
+    "uuid": "d7266fc7-73ec-4e6c-8d15-768c65f15d4a",
+    "jobAdId": "5edf26ef-0dd2-4fb5-90a8-534e50cbe334",
+    "defaultJobAd": true,
+    "refNumber": "JB0075649",
+    "company": {
+     "identifier": "ServiceNow",
+     "name": "ServiceNow"
+    },
+    "releasedDate": "2026-09-28T04:23:48.281Z",
+    "location": {
+     "city": "Singapore",
+     "region": "SINGAPUR",
+     "country": "sg",
+     "address": "South Beach Tower , 38 Beach Road Unit 29-11, 30-11, 31-12",
+     "postalCode": "189767",
+     "remote": false,
+     "hybrid": true,
+     "fullLocation": "Singapore, SINGAPUR, Singapore"
+    },
+    "industry": {
+     "id": "it_and_services",
+     "label": "Information Technology And Services"
+    },
+    "department": {
+     "id": "2294208",
+     "label": "Sales"
+    },
+    "function": {
+     "id": "strategy_planning",
+     "label": "Strategy/Planning"
+    },
+    "typeOfEmployment": {
+     "id": "permanent",
+     "label": "Full-time"
+    },
+    "experienceLevel": {
+     "id": "mid_senior_level",
+     "label": "Mid-Senior Level"
+    },
+    "customField": [
+     {
+      "fieldId": "60345fa28b4ba8595bef1863",
+      "fieldLabel": "Recruiting Team",
+      "valueId": "professional",
+      "valueLabel": "Professional"
+     },
+     {
+      "fieldId": "60345d5c5165a31b17288279",
+      "fieldLabel": "Region",
+      "valueId": "858884996eea4a49baa6231279f39054",
+      "valueLabel": "APAC - Asia Pacific"
+     },
+     {
+      "fieldId": "6034601b43915a29a4b3389b",
+      "fieldLabel": "Job Location",
+      "valueId": "L_SIN004",
+      "valueLabel": "South Beach Tower , 38 Beach Road, Singapore, Singapur, 189767, Singapore(L_SIN004)"
+     },
+     {
+      "fieldId": "60345e1a0b24a127cbdfa148",
+      "fieldLabel": "Employee Type",
+      "valueId": "0082f6cbe6154da19322cbab1f6aa5af",
+      "valueLabel": "Regular"
+     },
+     {
+      "fieldId": "5f63a78f1dae5c5c4e54ba2b",
+      "fieldLabel": "Department",
+      "valueId": "2294208",
+      "valueLabel": "Sales"
+     },
+     {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "sg",
+      "valueLabel": "Singapore"
+     },
+     {
+      "fieldId": "5f63a78f1dae5c5c4e54ba2a",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "ServiceNow"
+     },
+     {
+      "fieldId": "603462175165a31b1728827d",
+      "fieldLabel": "Cost Center",
+      "valueId": "CC3253",
+      "valueLabel": "3253 GPC Geo HQ"
+     },
+     {
+      "fieldId": "618ed92b8f5e5f110e5bfb95",
+      "fieldLabel": "Work Persona",
+      "valueId": "bf7551c6-9b06-4e7c-8217-3baf43edd060",
+      "valueLabel": "Flexible"
+     },
+     {
+      "fieldId": "690cc0e8c682c3dbadaa7d73",
+      "fieldLabel": "Job Posting Type",
+      "valueId": "professional",
+      "valueLabel": "Professional"
+     }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/ServiceNow/postings/744000152070819",
+    "language": {
+     "code": "en",
+     "label": "English",
+     "labelNative": "English (US)"
+    }
+   },
+   {
+    "id": "744000152033408",
+    "name": "Assoc Machine Learning Engineer",
+    "uuid": "0d8c9ef5-da41-4787-b1ee-635afd1d4ac0",
+    "jobAdId": "b4ce757c-c74a-4044-8c27-ccc3bd67dbbf",
+    "defaultJobAd": true,
+    "refNumber": "JB0061546",
+    "company": {
+     "identifier": "ServiceNow",
+     "name": "ServiceNow"
+    },
+    "releasedDate": "2026-09-27T18:45:46.096Z",
+    "location": {
+     "city": "Hyderabad",
+     "country": "in",
+     "address": "Salarpuria Sattva Knowledge City Knowledge City, Unit II, 17 to 10 Floor Survey No. 83/1, Serilingampally Mandal",
+     "postalCode": "500081",
+     "remote": false,
+     "hybrid": false,
+     "fullLocation": "Hyderabad, , India"
+    },
+    "industry": {
+     "id": "it_and_services",
+     "label": "Information Technology And Services"
+    },
+    "department": {
+     "id": "2294021",
+     "label": "Early In Career"
+    },
+    "function": {
+     "id": "engineering",
+     "label": "Engineering"
+    },
+    "typeOfEmployment": {
+     "id": "permanent",
+     "label": "Full-time"
+    },
+    "experienceLevel": {
+     "id": "not_applicable",
+     "label": "Not Applicable"
+    },
+    "customField": [
+     {
+      "fieldId": "60345fa28b4ba8595bef1863",
+      "fieldLabel": "Recruiting Team",
+      "valueId": "early-in-career",
+      "valueLabel": "Global Emerging Talent"
+     },
+     {
+      "fieldId": "60345d5c5165a31b17288279",
+      "fieldLabel": "Region",
+      "valueId": "858884996eea4a49baa6231279f39054",
+      "valueLabel": "APAC - Asia Pacific"
+     },
+     {
+      "fieldId": "6034601b43915a29a4b3389b",
+      "fieldLabel": "Job Location",
+      "valueId": "L_HYD002",
+      "valueLabel": "Knowledge City, Unit II, 17 to 10 Floor, Survey No. 83/1, Serilingampally Mandal, Hyderabad- 500081, Telangana, India(L_HYD002)"
+     },
+     {
+      "fieldId": "60345e1a0b24a127cbdfa148",
+      "fieldLabel": "Employee Type",
+      "valueId": "0082f6cbe6154da19322cbab1f6aa5af",
+      "valueLabel": "Regular"
+     },
+     {
+      "fieldId": "5f63a78f1dae5c5c4e54ba2b",
+      "fieldLabel": "Department",
+      "valueId": "2294021",
+      "valueLabel": "Early In Career"
+     },
+     {
+      "fieldId": "COUNTRY",
+      "fieldLabel": "Country/Region",
+      "valueId": "in",
+      "valueLabel": "India"
+     },
+     {
+      "fieldId": "5f63a78f1dae5c5c4e54ba2a",
+      "fieldLabel": "Brands",
+      "valueId": "default",
+      "valueLabel": "ServiceNow"
+     },
+     {
+      "fieldId": "603462175165a31b1728827d",
+      "fieldLabel": "Cost Center",
+      "valueId": "CC6315",
+      "valueLabel": "6315 AI Search & Workflows"
+     },
+     {
+      "fieldId": "618ed92b8f5e5f110e5bfb95",
+      "fieldLabel": "Work Persona",
+      "valueId": "bf7551c6-9b06-4e7c-8217-3baf43edd060",
+      "valueLabel": "Flexible"
+     },
+     {
+      "fieldId": "690cc0e8c682c3dbadaa7d73",
+      "fieldLabel": "Job Posting Type",
+      "valueId": "early-career",
+      "valueLabel": "Early Career"
+     }
+    ],
+    "visibility": "PUBLIC",
+    "ref": "https://api.smartrecruiters.com/v1/companies/ServiceNow/postings/744000152033408",
+    "language": {
+     "code": "en",
+     "label": "English",
+     "labelNative": "English (US)"
+    }
+   }
+  ]
+ },
+ "detail": {
+  "id": "744000152072409",
+  "name": "Principal Enterprise Architect, Korea",
+  "uuid": "e163f9ce-0c5d-42dc-aea9-5d0c273dede3",
+  "jobId": "8a21228f-c6bb-42bf-ad97-0bddc328ca2a",
+  "jobAdId": "84229138-6636-47eb-a38c-8d3bf518d9e4",
+  "defaultJobAd": true,
+  "refNumber": "JB0075703",
+  "company": {
+   "name": "ServiceNow",
+   "identifier": "ServiceNow"
+  },
+  "location": {
+   "city": "Seoul",
+   "country": "kr",
+   "address": "Gangnam Finance Center 152 Teheran-ro Gangnam-gu",
+   "postalCode": "06236",
+   "remote": false,
+   "hybrid": true,
+   "fullLocation": "Seoul, , Korea, republic of"
+  },
+  "customField": [
+   {
+    "fieldId": "60345fa28b4ba8595bef1863",
+    "fieldLabel": "Recruiting Team",
+    "valueId": "professional",
+    "valueLabel": "Professional"
+   },
+   {
+    "fieldId": "60345e1a0b24a127cbdfa148",
+    "fieldLabel": "Employee Type",
+    "valueId": "0082f6cbe6154da19322cbab1f6aa5af",
+    "valueLabel": "Regular"
+   },
+   {
+    "fieldId": "5f63a78f1dae5c5c4e54ba2b",
+    "fieldLabel": "Department",
+    "valueId": "2294208",
+    "valueLabel": "Sales"
+   },
+   {
+    "fieldId": "COUNTRY",
+    "fieldLabel": "Country/Region",
+    "valueId": "kr",
+    "valueLabel": "Republic of Korea"
+   },
+   {
+    "fieldId": "5f63a78f1dae5c5c4e54ba2a",
+    "fieldLabel": "Brands",
+    "valueId": "default",
+    "valueLabel": "ServiceNow"
+   },
+   {
+    "fieldId": "60345d5c5165a31b17288279",
+    "fieldLabel": "Region",
+    "valueId": "858884996eea4a49baa6231279f39054",
+    "valueLabel": "APAC - Asia Pacific"
+   },
+   {
+    "fieldId": "603462175165a31b1728827d",
+    "fieldLabel": "Cost Center",
+    "valueId": "CC3360",
+    "valueLabel": "3360 SC Enterprise Architecture"
+   },
+   {
+    "fieldId": "6034601b43915a29a4b3389b",
+    "fieldLabel": "Job Location",
+    "valueId": "L_SEO005",
+    "valueLabel": "152 Teheran-ro, Seoul, 06236, Republic of Korea(L_SEO005)"
+   },
+   {
+    "fieldId": "618ed92b8f5e5f110e5bfb95",
+    "fieldLabel": "Work Persona",
+    "valueId": "bf7551c6-9b06-4e7c-8217-3baf43edd060",
+    "valueLabel": "Flexible"
+   },
+   {
+    "fieldId": "690cc0e8c682c3dbadaa7d73",
+    "fieldLabel": "Job Posting Type",
+    "valueId": "professional",
+    "valueLabel": "Professional"
+   }
+  ],
+  "releasedDate": "2026-09-28T04:52:23.673Z",
+  "creator": {
+   "name": "",
+   "avatarUrl": ""
+  },
+  "postingUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000152072409-principal-enterprise-architect-korea",
+  "applyUrl": "https://jobs.smartrecruiters.com/ServiceNow/744000152072409-principal-enterprise-architect-korea?oga=true",
+  "referralUrl": "https://jobs.smartrecruiters.com/external-referrals/company/ServiceNow/publication/e163f9ce-0c5d-42dc-aea9-5d0c273dede3?dcr_ci=ServiceNow",
+  "jobAd": {
+   "sections": {
+    "companyDescription": {
+     "title": "Company Description",
+     "text": "<p>It all started when engineer Fred Luddy wrote code that automated a tedious task for his coworker, Phyllis. She cried tears of joy. That moment inspired Fred to build a company that could do that for everyone—freeing people from busywork so they could focus on meaningful work. Today, ServiceNow is the AI control tower for business reinvention. Our ServiceNow AI platform brings together any AI, any data, and any workflow— helping 85% of the Fortune 500® work smarter, faster, and better. We're building an AI-native culture where technology and talent are unstoppable together. And we're just getting started.</p><p>Join us to put AI to work for people.</p><p>&#xa0;</p>"
+    },
+    "jobDescription": {
+     "title": "Job Description",
+     "text": "<p>ServiceNow is seeking an Enterprise Architect to join our Korea team. The Enterprise Architecture Team is part of our pre-sales organisation focused on building credibility and trust with the technical leaders in our largest customers by developing cross-functional strategies and solutions. Our team brings technical expertise, real-world experience, strong executive engagement skills and an inspirational mindset to help our customers understand the opportunities of the \"platform of platforms\" vision.&#xa0;</p><p>Based in Korea, you will engage with enterprise customers across industries, acting as a technical leader for their most complex solutions. You will leverage best practices and industry standards to build customer trust and architect best-in-class solutions; communicating at all levels up to and including CIO/CTO. You will be fluent in the Korean enterprise technology landscape and comfortable engaging in both Korean and English with local customers, partners, and the wider ServiceNow global team.&#xa0;</p><p><strong>What You Get to Do&#xa0;</strong></p><p><strong>Korea Market Engagement&#xa0;</strong></p><ul><li>Engage with enterprise customers across Korea's key industries to identify pain points and opportunities to deliver value, translating business challenges into solutions from ServiceNow&#xa0;</li></ul><ul><li>Navigate the Korean enterprise IT landscape, including familiarity with major local system integrators (Samsung SDS, LG CNS, SK C&amp;C), cloud provi"
+    },
+    "qualifications": {
+     "title": "Qualifications",
+     "text": "<p><strong>&#xa0;To be successful in this role you have:&#xa0;</strong></p><ul><li>Experience in leveraging or critically thinking about how to integrate AI into work processes, decision-making, or problem-solving. This may include using AI-powered tools, automating workflows, analysing AI-driven insights, or exploring AI's potential impact on the function or industry&#xa0;</li></ul><ul><li>Passion and energy for building business relationships and is accustomed to driving the simplification of complex concepts into compelling customer proposals&#xa0;</li></ul><ul><li>Drive for results using out-of-the-box innovative thinking together with excellent problem-solving skills&#xa0;</li></ul><ul><li>An intrinsic ability to understand and prioritize work and is willing to make big bets when the time is right, to invest time and energy in the right areas&#xa0;</li></ul><ul><li>Willingness to jump in and roll up their sleeves alongside customers, colleagues and partners to get things done faster and better&#xa0;</li></ul><ul><li>10 or more years of proven success in influencing senior technology leaders to drive change in a pre-sales, customer, or delivery-focused role&#xa0;</li></ul><ul><li>A track record of success in using Human Centred Design techniques to explore the customers; current reality and set a vision for the future&#xa0;</li></ul><ul><li>Expertise designing, implementing and managing advanced architectures in an application domain and integrating multiple systems or pl"
+    },
+    "additionalInformation": {
+     "title": "Additional Information",
+     "text": "<p><strong>Work Personas</strong></p><p>We approach our distributed world of work with flexibility and trust. Work personas (flexible, remote, or required in office) are categories that are assigned to ServiceNow employees depending on the nature of their work and their assigned work location. <a href=\"https://careers.servicenow.com/life-at-servicenow#workpersonas\" rel=\"noopener noreferrer\"><u>Learn more here</u></a>. To determine eligibility for a work persona, ServiceNow may confirm the distance between your primary residence and the closest ServiceNow office using a third-party service.</p><p><strong>Equal Opportunity Employer</strong></p><p>ServiceNow is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, national origin, age, disability, gender identity,&#xa0; veteran status, or any other category protected by law. In addition, all qualified applicants with arrest or conviction records will be considered for employment in accordance with legal requirements. &#xa0;</p><p><strong>Accommodations</strong></p><p>We strive to create an accessible and inclusive experience for all candidates. If you require a reasonable accommodation to complete any part of the application process, or are unable to use this online application and need an alternative method to apply, please contact <a href=\"mailto:globaltalentss@servicenow.com\" rel=\"noopener noreferrer\">globaltalentss@s"
+    }
+   }
+  },
+  "active": true,
+  "visibility": "PUBLIC",
+  "industry": {
+   "id": "it_and_services",
+   "label": "Information Technology And Services"
+  },
+  "function": {
+   "id": "consulting",
+   "label": "Consulting"
+  },
+  "department": {
+   "id": 2294208,
+   "label": "Sales"
+  },
+  "experienceLevel": {
+   "id": "mid_senior_level",
+   "label": "Mid-Senior Level"
+  },
+  "typeOfEmployment": {
+   "id": "permanent",
+   "label": "Full-time"
+  },
+  "language": {
+   "code": "en",
+   "label": "English",
+   "labelNative": "English (US)"
+  }
+ }
+}

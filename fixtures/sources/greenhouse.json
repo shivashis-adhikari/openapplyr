@@ -1,0 +1,812 @@
+{
+ "recordedAt": "2026-09-28T07:58:36.624Z",
+ "token": "stripe",
+ "board": {
+  "name": "Stripe",
+  "content": ""
+ },
+ "list": {
+  "jobs": [
+   {
+    "absolute_url": "https://stripe.com/jobs/search?gh_jid=8172508",
+    "data_compliance": [
+     {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+     }
+    ],
+    "education": "education_required",
+    "internal_job_id": 3537062,
+    "location": {
+     "name": "Dublin"
+    },
+    "metadata": null,
+    "id": 8172508,
+    "updated_at": "2026-09-25T16:45:00-04:00",
+    "requisition_id": "See Opening ID",
+    "title": "Abuse Investigator",
+    "pay_input_ranges": [],
+    "company_name": "Stripe",
+    "first_published": "2026-09-03T13:32:53-04:00",
+    "language": "en",
+    "application_deadline": null,
+    "content": "&lt;h2&gt;&lt;strong&gt;Who we are &lt;/strong&gt;&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;About Stripe&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone&#39;s reach while doing the most important work of your career.&lt;/span&gt;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;About the team&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Abuse Operations is the front-line incident response and remediation function handling active product abuse and fraud impacting Stripe and its merchants. This multi-disciplinary group, spanning Incident Managers, Investigators, Forward Deployed Security Engineers, and Data Scientists, neutralizes active attacks, gathers requirements for operational tooling, and leads incidents. The team&amp;nbsp; works directly with impacted merchants to resolve technical incidents and policy abuse rapidly. Operating primarily across Eastern, Pacific and Western European time zones, these team members regularly coordinate with global stakeholders across the world.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;You&#39;ll play a critical role in safeguarding our financial ecosystem by investigating high-risk accounts and identifying complex patterns of fraud during incidents. You will lead incident response for product abuse and fraud events, conducting deep-dive analyses to identify root causes. By collaborating cross-functionally, you will drive improvements that enhance our fraud detection and prevention strategies at scale. Your expertise will be essential in automating response processes through agentic approaches, allowing us to safeguard merchants and neutralize threats with speed and precision.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Investigate, mitigate, and remediate urgent fraud incidents (e.g., ATO, card testing), utilizing FT3-mapped detection and signals enrichment to reduce uncertainty and accelerate response.&lt;/li&gt;\n&lt;li&gt;As part of incidents, analyze high-risk accounts to identify fraudu",
+    "departments": [
+     {
+      "id": 81946,
+      "name": "8611 Security Analytics",
+      "child_ids": [],
+      "parent_id": 78876
+     }
+    ],
+    "offices": [
+     {
+      "id": 87011,
+      "name": "Ireland Locations",
+      "location": null,
+      "child_ids": [
+       80459,
+       80460
+      ],
+      "parent_id": 17446
+     }
+    ],
+    "ai_disclaimer": null,
+    "include_ai_disclaimer": false,
+    "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8172508/ai_opt_out"
+   },
+   {
+    "absolute_url": "https://stripe.com/jobs/search?gh_jid=8172487",
+    "data_compliance": [
+     {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+     }
+    ],
+    "education": "education_required",
+    "internal_job_id": 3537052,
+    "location": {
+     "name": "Dublin"
+    },
+    "metadata": null,
+    "id": 8172487,
+    "updated_at": "2026-09-25T16:45:00-04:00",
+    "requisition_id": "See Opening ID",
+    "title": "Abuse Investigator",
+    "pay_input_ranges": [],
+    "company_name": "Stripe",
+    "first_published": "2026-09-03T13:30:34-04:00",
+    "language": "en",
+    "application_deadline": null,
+    "content": "&lt;h2&gt;&lt;strong&gt;Who we are &lt;/strong&gt;&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;About Stripe&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone&#39;s reach while doing the most important work of your career.&lt;/span&gt;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;About the team&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Abuse Operations is the front-line incident response and remediation function handling active product abuse and fraud impacting Stripe and its merchants. This multi-disciplinary group, spanning Incident Managers, Investigators, Forward Deployed Security Engineers, and Data Scientists, neutralizes active attacks, gathers requirements for operational tooling, and leads incidents. The team&amp;nbsp; works directly with impacted merchants to resolve technical incidents and policy abuse rapidly. Operating primarily across Eastern, Pacific and Western European time zones, these team members regularly coordinate with global stakeholders across the world.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;You&#39;ll play a critical role in safeguarding our financial ecosystem by investigating high-risk accounts and identifying complex patterns of fraud during incidents. You will lead incident response for product abuse and fraud events, conducting deep-dive analyses to identify root causes. By collaborating cross-functionally, you will drive improvements that enhance our fraud detection and prevention strategies at scale. Your expertise will be essential in automating response processes through agentic approaches, allowing us to safeguard merchants and neutralize threats with speed and precision.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Investigate, mitigate, and remediate urgent fraud incidents (e.g., ATO, card testing), utilizing FT3-mapped detection and signals enrichment to reduce uncertainty and accelerate response.&lt;/li&gt;\n&lt;li&gt;As part of incidents, analyze high-risk accounts to identify fraudu",
+    "departments": [
+     {
+      "id": 81946,
+      "name": "8611 Security Analytics",
+      "child_ids": [],
+      "parent_id": 78876
+     }
+    ],
+    "offices": [
+     {
+      "id": 87011,
+      "name": "Ireland Locations",
+      "location": null,
+      "child_ids": [
+       80459,
+       80460
+      ],
+      "parent_id": 17446
+     }
+    ],
+    "ai_disclaimer": null,
+    "include_ai_disclaimer": false,
+    "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8172487/ai_opt_out"
+   },
+   {
+    "absolute_url": "https://stripe.com/jobs/search?gh_jid=8172510",
+    "data_compliance": [
+     {
+      "type": "gdpr",
+      "requires_consent": false,
+      "requires_processing_consent": false,
+      "requires_retention_consent": false,
+      "retention_period": null,
+      "demographic_data_consent_applies": false
+     }
+    ],
+    "education": "education_required",
+    "internal_job_id": 3537063,
+    "location": {
+     "name": "Seattle, San Francisco, New York City"
+    },
+    "metadata": null,
+    "id": 8172510,
+    "updated_at": "2026-09-25T16:45:00-04:00",
+    "requisition_id": "See Opening ID",
+    "title": "Abuse Investigator",
+    "pay_input_ranges": [],
+    "company_name": "Stripe",
+    "first_published": "2026-09-09T10:50:29-04:00",
+    "language": "en",
+    "application_deadline": null,
+    "content": "&lt;h2&gt;&lt;strong&gt;Who we are &lt;/strong&gt;&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;About Stripe&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone&#39;s reach while doing the most important work of your career.&lt;/span&gt;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;About the team&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Abuse Operations is the front-line incident response and remediation function handling active product abuse and fraud impacting Stripe and its merchants. This multi-disciplinary group, spanning Incident Managers, Investigators, Forward Deployed Security Engineers, and Data Scientists, neutralizes active attacks, gathers requirements for operational tooling, and leads incidents. The team&amp;nbsp; works directly with impacted merchants to resolve technical incidents and policy abuse rapidly. Operating primarily across Eastern, Pacific and Western European time zones, these team members regularly coordinate with global stakeholders across the world.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;You&#39;ll play a critical role in safeguarding our financial ecosystem by investigating high-risk accounts and identifying complex patterns of fraud during incidents. You will lead incident response for product abuse and fraud events, conducting deep-dive analyses to identify root causes. By collaborating cross-functionally, you will drive improvements that enhance our fraud detection and prevention strategies at scale. Your expertise will be essential in automating response processes through agentic approaches, allowing us to safeguard merchants and neutralize threats with speed and precision.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Investigate, mitigate, and remediate urgent fraud incidents (e.g., ATO, card testing), utilizing FT3-mapped detection and signals enrichment to reduce uncertainty and accelerate response.&lt;/li&gt;\n&lt;li&gt;As part of incidents, analyze high-risk accounts to identify fraudu",
+    "departments": [
+     {
+      "id": 81946,
+      "name": "8611 Security Analytics",
+      "child_ids": [],
+      "parent_id": 78876
+     }
+    ],
+    "offices": [
+     {
+      "id": 65234,
+      "name": "US",
+      "location": null,
+      "child_ids": [
+       89623,
+       249942,
+       249943,
+       230657,
+       61413,
+       80440,
+       344486,
+       83778,
+       61414,
+       83767,
+       83768,
+       83776,
+       83769,
+       83770,
+       83771,
+       83772,
+       83773,
+       83774,
+       89624,
+       83789,
+       83775,
+       83777,
+       83779,
+       83780,
+       83820,
+       83781,
+       83782,
+       83783,
+       83784,
+       83785,
+       83786,
+       83787,
+       83821,
+       83788,
+       83790,
+       83791,
+       83792,
+       83793,
+       83794,
+       83854,
+       83861,
+       83795,
+       83796,
+       83797,
+       83831,
+       83798,
+       83799,
+       83856,
+       83800,
+       83801,
+       83819,
+       83802,
+       83850,
+       83803,
+       83804,
+       83805,
+       83806,
+       83807,
+       83808,
+       83809,
+       83810,
+       83811,
+       83812,
+       83813,
+       83815,
+       83817,
+       83822,
+       83824,
+       83846,
+       83825,
+       83829,
+       83830,
+       65238,
+       83834,
+       83849,
+       83859,
+       83835,
+       83836,
+       83837,
+       83839,
+       83840,
+       83841,
+       83842,
+       83843,
+       83844,
+       83847,
+       83848,
+       83851,
+       83852,
+       83853,
+       83855,
+       83857,
+       83858,
+       83860,
+       83862,
+       83814,
+       83818,
+       83823,
+       83826,
+       83827,
+       83828,
+       83832,
+       83833,
+       83816,
+       85342,
+       83838,
+       83845,
+       223073,
+       265365,
+       16654
+      ],
+      "parent_id": 673
+     }
+    ],
+    "ai_disclaimer": null,
+    "include_ai_disclaimer": false,
+    "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8172510/ai_opt_out"
+   }
+  ],
+  "meta": {
+   "total": 701
+  }
+ },
+ "questions": {
+  "absolute_url": "https://stripe.com/jobs/search?gh_jid=8172508",
+  "data_compliance": [
+   {
+    "type": "gdpr",
+    "requires_consent": false,
+    "requires_processing_consent": false,
+    "requires_retention_consent": false,
+    "retention_period": null,
+    "demographic_data_consent_applies": false
+   }
+  ],
+  "education": "education_required",
+  "internal_job_id": 3537062,
+  "location": {
+   "name": "Dublin"
+  },
+  "metadata": null,
+  "id": 8172508,
+  "updated_at": "2026-09-25T16:45:00-04:00",
+  "requisition_id": "See Opening ID",
+  "title": "Abuse Investigator",
+  "pay_input_ranges": [],
+  "company_name": "Stripe",
+  "first_published": "2026-09-03T13:32:53-04:00",
+  "language": "en",
+  "application_deadline": null,
+  "content": "&lt;h2&gt;&lt;strong&gt;Who we are &lt;/strong&gt;&lt;/h2&gt;\n&lt;h3&gt;&lt;strong&gt;About Stripe&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone&#39;s reach while doing the most important work of your career.&lt;/span&gt;&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;About the team&lt;/strong&gt;&lt;/h3&gt;\n&lt;p&gt;Abuse Operations is the front-line incident response and remediation function handling active product abuse and fraud impacting Stripe and its merchants. This multi-disciplinary group, spanning Incident Managers, Investigators, Forward Deployed Security Engineers, and Data Scientists, neutralizes active attacks, gathers requirements for operational tooling, and leads incidents. The team&amp;nbsp; works directly with impacted merchants to resolve technical incidents and policy abuse rapidly. Operating primarily across Eastern, Pacific and Western European time zones, these team members regularly coordinate with global stakeholders across the world.&lt;/p&gt;\n&lt;h2&gt;&lt;strong&gt;What you’ll do&lt;/strong&gt;&lt;/h2&gt;\n&lt;p&gt;You&#39;ll play a critical role in safeguarding our financial ecosystem by investigating high-risk accounts and identifying complex patterns of fraud during incidents. You will lead incident response for product abuse and fraud events, conducting deep-dive analyses to identify root causes. By collaborating cross-functionally, you will drive improvements that enhance our fraud detection and prevention strategies at scale. Your expertise will be essential in automating response processes through agentic approaches, allowing us to safeguard merchants and neutralize threats with speed and precision.&lt;/p&gt;\n&lt;h3&gt;&lt;strong&gt;Responsibilities&lt;/strong&gt;&lt;/h3&gt;\n&lt;ul&gt;\n&lt;li&gt;Investigate, mitigate, and remediate urgent fraud incidents (e.g., ATO, card testing), utilizing FT3-mapped detection and signals enrichment to reduce uncertainty and accelerate response.&lt;/li&gt;\n&lt;li&gt;As part of incidents, analyze high-risk accounts to identify fraudu",
+  "departments": [
+   {
+    "id": 81946,
+    "name": "8611 Security Analytics",
+    "child_ids": [],
+    "parent_id": 78876
+   }
+  ],
+  "offices": [
+   {
+    "id": 87011,
+    "name": "Ireland Locations",
+    "location": null,
+    "child_ids": [
+     80459,
+     80460
+    ],
+    "parent_id": 17446
+   }
+  ],
+  "ai_disclaimer": null,
+  "include_ai_disclaimer": false,
+  "ai_opt_out_request_url": "http://app.greenhouse.io/ai_opt_out_request/job_post/8172508/ai_opt_out",
+  "compliance": null,
+  "demographic_questions": null,
+  "questions": [
+   {
+    "description": null,
+    "label": "First Name",
+    "required": true,
+    "fields": [
+     {
+      "name": "first_name",
+      "type": "input_text",
+      "values": []
+     }
+    ]
+   },
+   {
+    "description": null,
+    "label": "Last Name",
+    "required": true,
+    "fields": [
+     {
+      "name": "last_name",
+      "type": "input_text",
+      "values": []
+     }
+    ]
+   },
+   {
+    "description": null,
+    "label": "Email",
+    "required": true,
+    "fields": [
+     {
+      "name": "email",
+      "type": "input_text",
+      "values": []
+     }
+    ]
+   },
+   {
+    "description": null,
+    "label": "Phone",
+    "required": true,
+    "fields": [
+     {
+      "name": "phone",
+      "type": "input_text",
+      "values": []
+     }
+    ]
+   },
+   {
+    "description": null,
+    "label": "Resume/CV",
+    "required": true,
+    "fields": [
+     {
+      "name": "resume",
+      "type": "input_file",
+      "values": []
+     },
+     {
+      "name": "resume_text",
+      "type": "textarea",
+      "values": []
+     }
+    ]
+   },
+   {
+    "description": null,
+    "label": "Cover Letter",
+    "required": false,
+    "fields": [
+     {
+      "name": "cover_letter",
+      "type": "input_file",
+      "values": []
+     },
+     {
+      "name": "cover_letter_text",
+      "type": "textarea",
+      "values": []
+     }
+    ]
+   },
+   {
+    "description": null,
+    "label": "Who is your current or previous employer?",
+    "required": true,
+    "fields": [
+     {
+      "name": "question_68935488",
+      "type": "input_text",
+      "values": []
+     }
+    ]
+   },
+   {
+    "description": null,
+    "label": "What is your current or previous job title?",
+    "required": true,
+    "fields": [
+     {
+      "name": "question_68935489",
+      "type": "input_text",
+      "values": []
+     }
+    ]
+   },
+   {
+    "description": "<p><em>If you don't see your country in the list, please select 'Other'.</em></p>",
+    "label": "Please select the country where you currently reside.\n",
+    "required": true,
+    "fields": [
+     {
+      "name": "question_68935490",
+      "type": "multi_value_single_select",
+      "values": [
+       {
+        "label": "Australia",
+        "value": 749881716
+       },
+       {
+        "label": "Belgium",
+        "value": 749881717
+       },
+       {
+        "label": "Brazil",
+        "value": 749881718
+       },
+       {
+        "label": "Canada",
+        "value": 749881719
+       },
+       {
+        "label": "Egypt",
+        "value": 749881720
+       },
+       {
+        "label": "France",
+        "value": 749881721
+       },
+       {
+        "label": "Germany",
+        "value": 749881722
+       },
+       {
+        "label": "India",
+        "value": 749881723
+       },
+       {
+        "label": "Indonesia",
+        "value": 749881724
+       },
+       {
+        "label": "Ireland",
+        "value": 749881725
+       },
+       {
+        "label": "Israel",
+        "value": 749881726
+       },
+       {
+        "label": "Italy",
+        "value": 749881727
+       },
+       {
+        "label": "Japan",
+        "value": 749881728
+       },
+       {
+        "label": "Malaysia",
+        "value": 749881729
+       },
+       {
+        "label": "Mexico",
+        "value": 749881730
+       },
+       {
+        "label": "New Zealand",
+        "value": 749881731
+       },
+       {
+        "label": "Poland",
+        "value": 749881732
+       },
+       {
+        "label": "Portugal",
+        "value": 749881733
+       },
+       {
+        "label": "Romania",
+        "value": 749881734
+       },
+       {
+        "label": "Singapore",
+        "value": 749881735
+       },
+       {
+        "label": "South Korea",
+        "value": 749881736
+       },
+       {
+        "label": "Spain",
+        "value": 749881737
+       },
+       {
+        "label": "Sweden",
+        "value": 749881738
+       },
+       {
+        "label": "Switzerland",
+        "value": 749881739
+       },
+       {
+        "label": "Taiwan",
+        "value": 749881740
+       },
+       {
+        "label": "Thailand",
+        "value": 749881741
+       },
+       {
+        "label": "The Netherlands",
+        "value": 749881742
+       },
+       {
+        "label": "UAE",
+        "value": 749881743
+       },
+       {
+        "label": "UK",
+        "value": 749881744
+       },
+       {
+        "label": "US",
+        "value": 749881745
+       },
+       {
+        "label": "Other",
+        "value": 749881746
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "description": null,
+    "label": "Please select the country or countries you anticipate working in for the role in which you are applying.",
+    "required": true,
+    "fields": [
+     {
+      "name": "question_68935491[]",
+      "type": "multi_value_multi_select",
+      "values": [
+       {
+        "label": "Australia",
+        "value": 749881747
+       },
+       {
+        "label": "Belgium",
+        "value": 749881748
+       },
+       {
+        "label": "Brazil",
+        "value": 749881749
+       },
+       {
+        "label": "Canada",
+        "value": 749881750
+       },
+       {
+        "label": "France",
+        "value": 749881751
+       },
+       {
+        "label": "Germany",
+        "value": 749881752
+       },
+       {
+        "label": "India",
+        "value": 749881753
+       },
+       {
+        "label": "Indonesia",
+        "value": 749881754
+       },
+       {
+        "label": "Ireland",
+        "value": 749881755
+       },
+       {
+        "label": "Israel",
+        "value": 749881756
+       },
+       {
+        "label": "Italy",
+        "value": 749881757
+       },
+       {
+        "label": "Japan",
+        "value": 749881758
+       },
+       {
+        "label": "Luxembourg",
+        "value": 749881759
+       },
+       {
+        "label": "Malaysia",
+        "value": 749881760
+       },
+       {
+        "label": "Mexico",
+        "value": 749881761
+       },
+       {
+        "label": "New Zealand",
+        "value": 749881762
+       },
+       {
+        "label": "Poland",
+        "value": 749881763
+       },
+       {
+        "label": "Portugal",
+        "value": 749881764
+       },
+       {
+        "label": "Romania",
+        "value": 749881765
+       },
+       {
+        "label": "Singapore",
+        "value": 749881766
+       },
+       {
+        "label": "South Korea",
+        "value": 749881767
+       },
+       {
+        "label": "Spain",
+        "value": 749881768
+       },
+       {
+        "label": "Sweden",
+        "value": 749881769
+       },
+       {
+        "label": "Switzerland",
+        "value": 749881770
+       },
+       {
+        "label": "Taiwan",
+        "value": 749881771
+       },
+       {
+        "label": "Thailand",
+        "value": 749881772
+       },
+       {
+        "label": "The Netherlands",
+        "value": 749881773
+       },
+       {
+        "label": "UAE",
+        "value": 749881774
+       },
+       {
+        "label": "UK",
+        "value": 749881775
+       },
+       {
+        "label": "US",
+        "value": 749881776
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "description": null,
+    "label": "Are you authorized to work in the location(s) you selected in your previous response?",
+    "required": true,
+    "fields": [
+     {
+      "name": "question_68935492",
+      "type": "multi_value_single_select",
+      "values": [
+       {
+        "label": "Yes",
+        "value": 749881777
+       },
+       {
+        "label": "No",
+        "value": 749881778
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "description": null,
+    "label": "Will you require Stripe to sponsor you for a work permit now or in the future for the location(s) you selected in in your previous response?\n",
+    "required": true,
+    "fields": [
+     {
+      "name": "question_68935493",
+      "type": "multi_value_single_select",
+      "values": [
+       {
+        "label": "Yes",
+        "value": 749881779
+       },
+       {
+        "label": "No",
+        "value": 749881780
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "description": "<p>Use of BrightHire is not a factor that will be considered when assessing your suitability for a role. Any interview notes and analysis by BrightHire are subject to human review by the hiring team.</p>\n<p><strong data-stringify-type=\"bold\">[For EU/UK/Swiss based roles only:&nbsp;</strong>We collect, use, disclose, and retain personal information in accordance with our European Applicant Personal Information Notice&nbsp;<a class=\"c-link\" href=\"https://stripe.com/ie/legal/eu-applicant-notice\" target=\"_blank\" rel=\"noopener noreferrer\" data-stringify-link=\"https://stripe.com/ie/legal/eu-applicant-notice\" data-sk=\"tooltip_parent\">here</a>.]</p>",
+    "label": "To ensure we can focus fully on our conversation, we use BrightHire to record and transcribe interviews. This helps us get to know you better without the distraction of note-taking. We also use BrightHire to help us analyze interview notes and for internal Stripe interview quality training and assurance purposes. After the recruitment process ends, recordings may be shared internally for recruiter and interviewer training to help us improve our interview processes. Please confirm if you consent to BrightHire being enabled for this interview and for your personal data to be collected and processed for the purposes mentioned above, by responding below",
+    "required": true,
+    "fields": [
+     {
+      "name": "question_69457838",
+      "type": "multi_value_single_select",
+      "values": [
+       {
+        "label": "Yes",
+        "value": 1
+       },
+       {
+        "label": "No",
+        "value": 0
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "location_questions": [
+   {
+    "description": null,
+    "label": "Longitude",
+    "required": true,
+    "fields": [
+     {
+      "name": "longitude",
+      "type": "input_hidden",
+      "values": []
+     }
+    ]
+   },
+   {
+    "description": null,
+    "label": "Latitude",
+    "required": true,
+    "fields": [
+     {
+      "name": "latitude",
+      "type": "input_hidden",
+      "values": []
+     }
+    ]
+   },
+   {
+    "description": null,
+    "label": "Location",
+    "required": true,
+    "fields": [
+     {
+      "name": "location",
+      "type": "input_text",
+      "values": []
+     }
+    ]
+   }
+  ]
+ }
+}

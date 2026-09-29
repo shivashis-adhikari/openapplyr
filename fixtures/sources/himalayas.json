@@ -1,0 +1,128 @@
+{
+ "recordedAt": "2026-09-28T07:59:01.935Z",
+ "list": {
+  "comments": "21/08/2026: Cursor pagination is now available and is the preferred way to page through the feed. Pass the nextCursor value from each response back as ?cursor=. It is faster than offset and will never return the same job twice. The offset parameter is deprecated and will be removed in a future release. 13/03/2026: The API has been updated to include the companySlug field in the response.",
+  "updatedAt": 1790571697,
+  "offset": 0,
+  "limit": 3,
+  "totalCount": 98018,
+  "nextCursor": "MjAyNi0wOS0yOFQwNDo1OToxNy43MTYxOTZafDIyOTM3NzE",
+  "jobs": [
+   {
+    "title": "Mobile Application Developer - AI Neobank App",
+    "excerpt": "About DoitWe are focused on reinventing how people spend, save, invest, exchange, travel, and more.",
+    "companyName": "Bjak",
+    "companySlug": "bjak",
+    "companyLogo": "https://cdn-images.himalayas.app/8ub8wtihrfrm3vfivlkcojai4np3",
+    "employmentType": "Full Time",
+    "minSalary": null,
+    "maxSalary": null,
+    "salaryPeriod": "annual",
+    "seniority": [
+     "Mid-level"
+    ],
+    "currency": null,
+    "locationRestrictions": [
+     "Ireland"
+    ],
+    "timezoneRestrictions": [
+     1
+    ],
+    "categories": [
+     "Mobile-AI-Developer",
+     "AI-Application-Developer",
+     "Mobile-AI-Development",
+     "Mobile-Application-Developer",
+     "AI-Application-Development",
+     "AI-ML-Application-Developer",
+     "Mobile-Apps-Development"
+    ],
+    "parentCategories": [],
+    "description": "<h3><strong>About Doit</strong></h3><p>We are focused on reinventing how people spend, save, invest, exchange, travel, and more. Our objective is to build tools that will help people get more from their money and become an expert at ease. We believe AI will help make finance smart, assessible and safe.   </p><p>We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few. We have teams working around the world, with over 20 nationalities and growing from our offices and remotely. Join us and build a better future for our society.  </p><p><em>In 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, it's the leading insurance platform in Southeast Asia.</em></p><h3><strong>The Role</strong></h3><p>We are looking for Android engineers to build the native Android experience for Doit's AI Neobank App.<br><br>This role is for someone who cares about clean user flows, fast performance, product quality and shipping reliable mobile features used by real customers.</p><h3><strong>What You'll Own</strong></h3><ul>\n<li><p>Build and ship Android features using Kotlin.</p></li>\n<li><p>Create clean mobile flows for insurance, payments, claims, renewals and financial services.</p></li>\n<li><p>Work with product and design to simplify complex user journeys.</p></li>\n<li><p>Integrate backend APIs and ensure mobile flows are stable, secure and reliable.</p></li>\n<li><p>Improve app performance, crash rate, loading states, responsiveness and memory usage.</p></li>\n<li><p>Use analytics, user behaviour and production issues to improve the product.</p></li>\n<li><p>Build AI-assisted mobile experiences only where they genuinely improve the user journey.</p></li>\n</ul><h3><strong>What We're Looking For</strong></h3><ul>\n<li><p>3+ years of Android development experience using Kotlin.</p></li>\n<li><p>Strong Android fundamentals and experience shipping production apps.</p></li>\n<li><p>Good knowledge of Jetpack, Coroutines, Flow and modern Android architecture.</p></li>\n<li><p>Strong sense of mobile UX, usability, edge cases and user flows.</p></li>\n<li><p>Experience integrating REST APIs and debugging production issues.</p></li>\n<li><p>Fast execut",
+    "pubDate": 1790571697,
+    "expiryDate": 1795755696,
+    "applicationLink": "https://himalayas.app/companies/bjak/jobs/mobile-application-developer-ai-neobank-app-7461560433",
+    "guid": "https://himalayas.app/companies/bjak/jobs/mobile-application-developer-ai-neobank-app-7461560433"
+   },
+   {
+    "title": "Product Lead - AI Neobank App",
+    "excerpt": "About BJAKThe original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money.",
+    "companyName": "Bjak",
+    "companySlug": "bjak",
+    "companyLogo": "https://cdn-images.himalayas.app/8ub8wtihrfrm3vfivlkcojai4np3",
+    "employmentType": "Full Time",
+    "minSalary": null,
+    "maxSalary": null,
+    "salaryPeriod": "annual",
+    "seniority": [
+     "Manager",
+     "Director"
+    ],
+    "currency": null,
+    "locationRestrictions": [
+     "Spain"
+    ],
+    "timezoneRestrictions": [
+     0,
+     1
+    ],
+    "categories": [
+     "AI-Product-Lead",
+     "AI-Product-Manager-Lead",
+     "Banking-Product-Manager",
+     "Fintech-Product-Lead",
+     "Senior-AI-Product-Lead",
+     "Head-Of-AI-Product",
+     "Team-Lead-AI-Products",
+     "Product-Lead"
+    ],
+    "parentCategories": [
+     "Product"
+    ],
+    "description": "<h3>About BJAK</h3><p>The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name.<br><br>Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia.<br><br>Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day.<br><br>We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few.<br><br>If you're this person, we'd love to talk to you.</p><h3><strong>The Role</strong></h3><p>We are looking for product leads to shape and drive major product areas within BJAK's AI Neobank app.<br><br>This role is for senior product builders who can own direction, execution, product quality and outcomes across multiple workstreams or squads.</p><h3><strong>What You'll Own</strong></h3><ul>\n<li><p>Lead product direction for major AI Neobank app areas.</p></li>\n<li><p>Define priorities, roadmap, product standards and success metrics across multiple features or squads.</p></li>\n<li><p>Guide PMs, Product Owners, designers and engineers toward clear execution.</p></li>\n<li><p>Work across insurance, payments, savings, investing, travel and other financial services.</p></li>\n<li><p>Turn regulatory, operational and business constraints into practical product decisions.</p></li>\n<li><p>Drive launch quality, post-launch learning and continuous improvement.</p></li>\n<li><p>Help build a product culture focused on speed, clarity, user value and honest measurement.</p></li>\n</ul><h3>\n<br><strong>What We're Looking For</strong>\n</h3><ul>\n<li><p>Strong experience leading digital product areas, not just individual features.</p></li>\n<li><p>Able to balance strategy, execution, UX, data, engineering and business outcomes.</p></li>\n<li><p>Strong judgement on prioritization, trade-offs and product sequencing.</p></li>\n<li><p>Experience leading or mentoring",
+    "pubDate": 1790571628,
+    "expiryDate": 1795755627,
+    "applicationLink": "https://himalayas.app/companies/bjak/jobs/product-lead-ai-neobank-app-833162000",
+    "guid": "https://himalayas.app/companies/bjak/jobs/product-lead-ai-neobank-app-833162000"
+   },
+   {
+    "title": "Product Manager - AI Neobank App",
+    "excerpt": "About BJAKThe original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money.",
+    "companyName": "Bjak",
+    "companySlug": "bjak",
+    "companyLogo": "https://cdn-images.himalayas.app/8ub8wtihrfrm3vfivlkcojai4np3",
+    "employmentType": "Full Time",
+    "minSalary": null,
+    "maxSalary": null,
+    "salaryPeriod": "annual",
+    "seniority": [
+     "Mid-level"
+    ],
+    "currency": null,
+    "locationRestrictions": [
+     "Ireland"
+    ],
+    "timezoneRestrictions": [
+     1
+    ],
+    "categories": [
+     "Banking-Product-Manager",
+     "Bank-Product-Manager",
+     "AI-Product-Manager",
+     "AI-ML-Product-Manager",
+     "Product-Manager-II-AI",
+     "Digital-Banking-Product-Management",
+     "Product-Manager"
+    ],
+    "parentCategories": [
+     "Product"
+    ],
+    "description": "<h3>About BJAK</h3><p>The original mission of BJAK is we believe people deserve smarter ways to plan, save and grow their money. This is the origin of our name.<br><br>Started in 2019, we built the first mobile-first, insurance platform, enabling insurance to be accessible online by millions in the region. Today, its the leading insurance platform in Southeast Asia.<br><br>Today, we are expanding ways to help people in the region — this includes spending, saving, investing, exchanging, travelling, and more. Our mission is help people get more from their money every day.<br><br>We have teams working around the world, with over 20 nationalities from our offices and remotely, who truly enjoys their work. We are looking for the most talented and driven people we can find. We are looking for people who work for their passion, not counting hours. Who loves building great next-generation products, not status quo. Who cares about redefining how everyone around us can get the best financial applications, not for an exclusive few.<br><br>If you're this person, we'd love to talk to you.</p><h3><strong>The Role</strong></h3><p>We are looking for product managers to own product areas within BJAK's AI Neobank app.<br><br>This role is for builders who can understand users, define product direction, work with engineering and design, launch fast and keep improving after release.</p><h3><strong>What You'll Own</strong></h3><ul>\n<li><p>Own product areas across insurance, payments, savings, investing, travel or other financial services.</p></li>\n<li><p>Define user problems, product scope, success metrics, roadmap and launch plans.</p></li>\n<li><p>Work with engineering, design, data, operations, compliance and business teams.</p></li>\n<li><p>Turn complex financial products into simple, usable customer journeys.</p></li>\n<li><p>Use data, feedback, research and production issues to improve product decisions.</p></li>\n<li><p>Launch features, monitor performance and drive iterations.</p></li>\n<li><p>Make trade-offs between speed, user experience, business impact, compliance and operational complexity.</p></li>\n</ul><h3><strong>What We're Looking For</strong></h3><ul>\n<li><p>Experience as Product Manager, Product Owner, founder, growth/product operator or similar role.</p></li>\n<li><p>Strong product sense and ability to simplify complex workflows.</p></li>\n<li><p>Able to work with engineers and designers to ship real products.</p></li>\n<li><p>Comfortable with metrics, user feedback",
+    "pubDate": 1790571557,
+    "expiryDate": 1795755557,
+    "applicationLink": "https://himalayas.app/companies/bjak/jobs/product-manager-ai-neobank-app-996242723",
+    "guid": "https://himalayas.app/companies/bjak/jobs/product-manager-ai-neobank-app-996242723"
+   }
+  ]
+ }
+}

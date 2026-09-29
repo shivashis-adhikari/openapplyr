@@ -1,0 +1,24 @@
+name: Something is wrong
+description: The app did something it should not, or did not do something it should.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version and system
+      placeholder: 0.1.0 on macOS 26, Windows 11, Ubuntu 24.04
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log lines
+      description: Settings, Data and privacy, Show data folder, then the logs folder. Paste the lines around the problem. Keys and passwords are removed from logs, but check for anything personal before posting.
+      render: text

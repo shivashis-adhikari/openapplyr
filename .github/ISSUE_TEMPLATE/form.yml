@@ -1,0 +1,31 @@
+name: A form was filled wrong
+description: An application form the app could not fill, filled incorrectly, or got stuck on.
+labels: [apply]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Posting link
+      description: A public link to the posting or its application form.
+    validations:
+      required: true
+  - type: dropdown
+    id: ats
+    attributes:
+      label: Applicant tracking system
+      options: [Greenhouse, Lever, Ashby, Workday, SmartRecruiters, Workable, Recruitee, Something else, Not sure]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What went wrong
+      description: Which question or step, and what the app did. The run's steps are under Activity, Application runs.
+    validations:
+      required: true
+  - type: textarea
+    id: fields
+    attributes:
+      label: Filled fields
+      description: Optional. The run's fields.json from its evidence folder, with your personal answers removed.
+      render: json

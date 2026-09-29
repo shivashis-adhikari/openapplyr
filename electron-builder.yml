@@ -1,0 +1,56 @@
+# Packaging. `npm run dist:dir` builds an unpacked app in release/ for checking; `npm run dist` builds installers.
+appId: org.openapplyr.app
+productName: OpenApplyr
+copyright: Copyright © 2026 OpenApplyr contributors
+directories:
+  output: release
+  buildResources: build
+files:
+  - out/**
+  - package.json
+  - "!**/*.map"
+extraResources:
+  # Place names for location matching (GeoNames, CC BY 4.0).
+  - from: data
+    to: data
+    filter: ["*.json"]
+  # Fonts embedded in generated resumes and letters (SIL Open Font License).
+  - from: assets/fonts
+    to: assets/fonts
+  # Company boards checked by default.
+  - from: registry
+    to: registry
+  - from: build
+    to: .
+    filter: ["tray*.png"]
+# Electron fuses: no running as plain Node, no NODE_OPTIONS or inspector flags, and the
+# app code is only loaded from the packaged, integrity-checked archive.
+electronFuses:
+  runAsNode: false
+  enableCookieEncryption: true
+  enableNodeOptionsEnvironmentVariable: false
+  enableNodeCliInspectArguments: false
+  enableEmbeddedAsarIntegrityValidation: true
+  onlyLoadAppFromAsar: true
+  grantFileProtocolExtraPrivileges: false
+mac:
+  category: public.app-category.productivity
+  icon: build/icon.png
+  hardenedRuntime: true
+  target:
+    - dmg
+    - zip
+win:
+  icon: build/icon.png
+  target:
+    - nsis
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
+linux:
+  icon: build/icon.png
+  category: Office
+  target:
+    - AppImage
+    - deb
+publish: null

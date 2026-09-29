@@ -1,0 +1,114 @@
+/* The only file with raw color values (npm run lint:hex). Values and contrast ratios: docs/design/design-language.md §3. */
+
+:root {
+  --bg: #f6f4ee;
+  --surface: #fdfcf9;
+  --surface-sunken: #efece4;
+  --border: #e2ded3;
+  --border-strong: #c9c4b6;
+  --text: #1c2420;
+  --text-muted: #5b635e;
+  --primary: #0d2d20;
+  --on-primary: #f6f4ee;
+  --accent: #64865c;
+  --accent-text: #4f6b48;
+  --accent-wash: rgb(100 134 92 / 0.12);
+  --attention: #9a5b13;
+  --attention-wash: rgb(154 91 19 / 0.1);
+  --danger: #a3392b;
+  --danger-wash: rgb(163 57 43 / 0.08);
+  --info: #35577a;
+  --brand-open: #64865c;
+  --brand-applyr: #0d2d20;
+  --shadow: 0 1px 2px rgb(28 36 32 / 0.06), 0 8px 24px rgb(28 36 32 / 0.12);
+  --scrim: rgb(28 36 32 / 0.32);
+
+  --font-sans: 'IBM Plex Sans', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-serif: 'Libre Baskerville', Georgia, serif;
+  --font-mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+
+  --radius-control: 4px;
+  --radius-panel: 8px;
+  --row: 32px;
+  --sidebar: 224px;
+  --sidebar-collapsed: 56px;
+
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --t-state: 120ms;
+  --t-pop: 160ms;
+  --t-dialog: 200ms;
+
+  color-scheme: light;
+}
+
+:root[data-density='comfortable'] {
+  --row: 40px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --bg: #101714;
+    --surface: #16201b;
+    --surface-sunken: #0c120f;
+    --border: #26332c;
+    --border-strong: #354539;
+    --text: #e7e4db;
+    --text-muted: #a7ada9;
+    --primary: #9cb894;
+    --on-primary: #101714;
+    --accent: #9cb894;
+    --accent-text: #9cb894;
+    --accent-wash: rgb(156 184 148 / 0.14);
+    --attention: #e0a458;
+    --attention-wash: rgb(224 164 88 / 0.12);
+    --danger: #e58a7b;
+    --danger-wash: rgb(229 138 123 / 0.1);
+    --info: #8db0d4;
+    --brand-open: #9cb894;
+    --brand-applyr: #e7e4db;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px rgb(0 0 0 / 0.45);
+    --scrim: rgb(0 0 0 / 0.5);
+    color-scheme: dark;
+  }
+}
+
+:root[data-theme='dark'] {
+  --bg: #101714;
+  --surface: #16201b;
+  --surface-sunken: #0c120f;
+  --border: #26332c;
+  --border-strong: #354539;
+  --text: #e7e4db;
+  --text-muted: #a7ada9;
+  --primary: #9cb894;
+  --on-primary: #101714;
+  --accent: #9cb894;
+  --accent-text: #9cb894;
+  --accent-wash: rgb(156 184 148 / 0.14);
+  --attention: #e0a458;
+  --attention-wash: rgb(224 164 88 / 0.12);
+  --danger: #e58a7b;
+  --danger-wash: rgb(229 138 123 / 0.1);
+  --info: #8db0d4;
+  --brand-open: #9cb894;
+  --brand-applyr: #e7e4db;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.3), 0 8px 24px rgb(0 0 0 / 0.45);
+  --scrim: rgb(0 0 0 / 0.5);
+  color-scheme: dark;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --t-state: 0ms;
+    --t-pop: 0ms;
+    --t-dialog: 0ms;
+  }
+}
