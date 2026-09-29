@@ -118,15 +118,23 @@ for (const scheme of ['light', 'dark'] as const) {
       // Evaluated through the debugger, so the page's content security policy does not apply.
       await win.evaluate(axeSource)
       const problems: string[] = []
-      for (const path of SCREENS) {
-        await win.evaluate((p) => ((globalThis as unknown as { location: { hash: string } }).location.hash = p), path)
-        await win.waitForTimeout(600)
-        const found = await win.evaluate(async () => {
-          const axe = (globalThis as unknown as { axe: { run: (ctx: unknown, o: unknown) => Promise<{ violations: { id: string; impact: string; help: string; nodes: { target: string[] }[] }[] }> } }).axe
-          const r = await axe.run((globalThis as unknown as { document: unknown }).document, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'] } })
-          return r.violations.map((v) => `${v.impact} ${v.id}: ${v.help} (${v.nodes.map((n) => n.target.join(' ')).slice(0, 3).join(', ')})`)
-        })
-        problems.push(...found.map((f) => `${path} ${f}`))
+      // A fixed desktop size and a narrow one (sidebar collapsed), whatever the machine's screen.
+      const cdp = await win.context().newCDPSession(win)
+      for (const [width, height] of [
+        [1280, 800],
+        [900, 640],
+      ]) {
+        await cdp.send('Emulation.setDeviceMetricsOverride', { width: width!, height: height!, deviceScaleFactor: 1, mobile: false })
+        for (const path of SCREENS) {
+          await win.evaluate((p) => ((globalThis as unknown as { location: { hash: string } }).location.hash = p), path)
+          await win.waitForTimeout(600)
+          const found = await win.evaluate(async () => {
+            const axe = (globalThis as unknown as { axe: { run: (ctx: unknown, o: unknown) => Promise<{ violations: { id: string; impact: string; help: string; nodes: { target: string[] }[] }[] }> } }).axe
+            const r = await axe.run((globalThis as unknown as { document: unknown }).document, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa'] } })
+            return r.violations.map((v) => `${v.impact} ${v.id}: ${v.help} (${v.nodes.map((n) => n.target.join(' ')).slice(0, 3).join(', ')})`)
+          })
+          problems.push(...found.map((f) => `${width}px ${path} ${f}`))
+        }
       }
       expect(problems).toEqual([])
     } finally {

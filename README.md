@@ -1,11 +1,13 @@
 <p align="center">
-  <img src="LogoWithText.svg" alt="OpenApplyr" width="320">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/media/logo-dark.svg">
+    <img src="LogoWithText.svg" alt="OpenApplyr" width="320">
+  </picture>
 </p>
 
 <p align="center">
   <strong>A job search assistant that runs on your own computer.</strong><br>
-  OpenApplyr finds jobs that fit you, prepares a tailored résumé and application for each one,<br>
-  applies once you approve, and keeps track of every reply.
+  OpenApplyr finds jobs that fit you, prepares a tailored résumé and application for each one, applies once you approve, and keeps track of every reply.
 </p>
 
 <p align="center">

@@ -278,8 +278,9 @@ a {
 .nav-item[aria-current='page'] .count {
   color: var(--on-primary);
 }
-.shell[data-collapsed='true'] .nav-item span,
-.shell[data-collapsed='true'] .agent-status span {
+/* Only the sidebar collapses; other lists that reuse .nav-item (Settings) keep their labels. */
+.shell[data-collapsed='true'] .sidebar .nav-item span,
+.shell[data-collapsed='true'] .sidebar .agent-status span {
   display: none;
 }
 .sidebar-foot {
