@@ -61,7 +61,7 @@
       <h1>A job search agent that shows its work.</h1>
       <p class="lede">OpenApplyr finds openings on company career sites, prepares a tailored resume, cover letter and form answers for each one, and applies once you approve. It follows up by email and keeps track of every reply. It runs on your own computer, with the AI model you choose.</p>
       <div class="actions">
-        <a class="btn btn-primary" href="#install">Install from source</a>
+        <a class="btn btn-primary" href="#install">Download</a>
         <a class="btn" href="https://github.com/shivashis-adhikari/openapplyr">Read the code<svg class="icon" aria-hidden="true"><use href="#i-arrowupright"/></svg></a>
       </div>
       <p class="fine">AGPL-3.0. No account, no server, no telemetry.</p>
@@ -363,9 +363,18 @@
     <div class="wrap">
       <header class="section-head">
         <p class="kicker">Install</p>
-        <h2>Run it from source.</h2>
-        <p>Signed installers are not published yet. You need <a href="https://nodejs.org">Node.js</a> 22.13 or later.</p>
+        <h2>Download OpenApplyr.</h2>
+        <p>Free for macOS, Windows and Linux. It also needs Google Chrome or Microsoft Edge, which it uses to fill in application forms.</p>
       </header>
+      <div class="downloads">
+        <a class="btn btn-primary" href="https://github.com/shivashis-adhikari/openapplyr/releases/latest/download/OpenApplyr-mac-arm64.dmg">macOS, Apple silicon</a>
+        <a class="btn" href="https://github.com/shivashis-adhikari/openapplyr/releases/latest/download/OpenApplyr-mac-x64.dmg">macOS, Intel</a>
+        <a class="btn" href="https://github.com/shivashis-adhikari/openapplyr/releases/latest/download/OpenApplyr-windows-setup.exe">Windows</a>
+        <a class="btn" href="https://github.com/shivashis-adhikari/openapplyr/releases/latest/download/OpenApplyr-linux-x86_64.AppImage">Linux AppImage</a>
+        <a class="btn" href="https://github.com/shivashis-adhikari/openapplyr/releases/latest/download/OpenApplyr-linux-amd64.deb">Linux .deb</a>
+      </div>
+      <p class="after">The installers are not code-signed yet, so your system asks you to confirm the first time you open the app. On macOS, open System Settings, Privacy and Security, and choose Open Anyway. On Windows, choose More info, then Run anyway. <a href="https://github.com/shivashis-adhikari/openapplyr/releases/latest">All releases</a></p>
+      <p class="after">To run it from source instead, you need <a href="https://nodejs.org">Node.js</a> 22.13 or later:</p>
       <div class="code">
         <pre tabindex="0" aria-label="Install commands"><code>git clone https://github.com/shivashis-adhikari/openapplyr.git
 cd openapplyr

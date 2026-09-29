@@ -274,7 +274,10 @@ ul { list-style: none; }
 /* Install */
 .install { border-top: 1px solid var(--border); }
 .install .section-head a { color: var(--accent-text); }
-.code { position: relative; max-width: 720px; border: 1px solid var(--border); border-radius: 10px; background: var(--sunken); }
+.downloads { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 8px; }
+.install .after a { color: var(--accent-text); }
+.install .after + .code { margin-top: 16px; }
+.code { position: relative; max-width: 720px; margin-top: 12px; border: 1px solid var(--border); border-radius: 10px; background: var(--sunken); }
 .code pre { margin: 0; padding: 24px 28px; overflow-x: auto; font: 400 15px/1.8 var(--mono); color: var(--text); }
 .copy {
   position: absolute;

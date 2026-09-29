@@ -71,7 +71,23 @@ It works with company career sites on Greenhouse, Lever, Ashby, Workday, SmartRe
 
 ## Getting started
 
-Ready-made installers for macOS, Windows and Linux are on the way. Until then, you can run OpenApplyr from source. You need [Node.js](https://nodejs.org) 22.13 or later, and Google Chrome or Microsoft Edge.
+Download OpenApplyr for your system:
+
+| System | Download |
+|---|---|
+| macOS, Apple silicon | [OpenApplyr-mac-arm64.dmg](https://github.com/shivashis-adhikari/openapplyr/releases/latest/download/OpenApplyr-mac-arm64.dmg) |
+| macOS, Intel | [OpenApplyr-mac-x64.dmg](https://github.com/shivashis-adhikari/openapplyr/releases/latest/download/OpenApplyr-mac-x64.dmg) |
+| Windows | [OpenApplyr-windows-setup.exe](https://github.com/shivashis-adhikari/openapplyr/releases/latest/download/OpenApplyr-windows-setup.exe) |
+| Linux | [AppImage](https://github.com/shivashis-adhikari/openapplyr/releases/latest/download/OpenApplyr-linux-x86_64.AppImage) or [.deb](https://github.com/shivashis-adhikari/openapplyr/releases/latest/download/OpenApplyr-linux-amd64.deb) |
+
+You also need Google Chrome or Microsoft Edge, which OpenApplyr uses to fill in application forms.
+
+The installers are not code-signed yet, so your system asks you to confirm the first time you open the app. On macOS, open **System Settings → Privacy & Security** and choose **Open Anyway**. On Windows, choose **More info → Run anyway**.
+
+<details>
+<summary>Run from source instead</summary>
+
+You need [Node.js](https://nodejs.org) 22.13 or later.
 
 ```bash
 git clone https://github.com/shivashis-adhikari/openapplyr.git
@@ -79,6 +95,8 @@ cd openapplyr
 npm ci
 npm run dev
 ```
+
+</details>
 
 **Try it first.** On the first screen, choose **Explore a sample workspace first**. It opens a fictional job search with made-up companies and a stand-in AI model, so you can click through everything before adding your own details. Nothing in it is ever sent.
 
