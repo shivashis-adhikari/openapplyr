@@ -27,11 +27,11 @@ beforeAll(async () => {
   ats = await startFakeAts()
   // Uses the installed Chrome, as the app does. CI images have it; skip where no browser exists.
   browser = await chromium.launch({ channel: 'chrome', headless: true }).catch(() => null)
-})
+}, 60_000) // a cold Chrome start on a busy CI runner can take well over the default 10 seconds
 afterAll(async () => {
   await browser?.close()
   await ats.close()
-})
+}, 30_000)
 
 async function context(url: string, mode: RunMode, replies: UserReply[] = [], prepared: PreparedAnswer[] = [], who: Profile = profile, model?: MockLanguageModelV4) {
   const ctx = testCtx()

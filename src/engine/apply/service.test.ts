@@ -26,11 +26,11 @@ let ats: Awaited<ReturnType<typeof startFakeAts>>
 beforeAll(async () => {
   ats = await startFakeAts()
   browser = await chromium.launch({ channel: 'chrome', headless: true }).catch(() => null)
-})
+}, 60_000) // a cold Chrome start on a busy CI runner can take well over the default 10 seconds
 afterAll(async () => {
   await browser?.close()
   await ats.close()
-})
+}, 30_000)
 
 // Mid-morning, inside the default active hours, so pacing never depends on when the tests run.
 const MORNING = (() => {
